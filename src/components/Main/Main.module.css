@@ -1,0 +1,26 @@
+.main {
+    height: 100vh;
+    background-color: rgba(62, 231, 255, 0.06);
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo img {
+    height: auto;
+    width: 300px;
+}

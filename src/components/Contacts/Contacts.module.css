@@ -1,0 +1,18 @@
+.contacts{
+    height: 100vh;
+    background-color: rgba(62, 231, 255, 0.06);
+    display: flex;
+    justify-content: center;
+}
+
+.mainBox {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.formInput{
+    display: flex;
+    flex-direction: column;
+}

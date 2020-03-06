@@ -1,0 +1,29 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(128, 248, 255, 0.36);
+    }
+
+.head{
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    /*justify-content: space-around; // не работает*/
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+}

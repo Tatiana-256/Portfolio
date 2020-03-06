@@ -1,0 +1,24 @@
+.footer{
+    height: 150px;
+    background-color: rgba(128, 248, 255, 0.36);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.b{
+    /*height: 300px;*/
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+.icon{
+height: 80px;
+}
