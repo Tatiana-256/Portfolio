@@ -12,7 +12,7 @@ function Skills() {
         <div className={styles.skills}>
             <div className={styles.head}>My skills
                 <div className={styles.items}>
-                    <div>
+                    <div className={styles.items}>
                         <div className={styles.item}>
                             <img src={JS} alt="JS"/>
                             <span>Java script</span>
@@ -25,8 +25,6 @@ function Skills() {
                             <img src={css} alt="CSS"/>
                             <span>CSS</span>
                         </div>
-                    </div>
-                    <div>
                         <div className={styles.item}>
                             <img src={git} alt="GIT"/>
                             <span>GIT</span>

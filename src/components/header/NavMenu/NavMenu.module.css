@@ -2,4 +2,10 @@
     width: 450px;
     justify-content: space-between;
     display: flex;
+
+}
+
+.link{
+    text-decoration: none;
+    font-family: "lato", "Arial", sans-serif
 }

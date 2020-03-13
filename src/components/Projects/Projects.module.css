@@ -11,12 +11,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.project {
+.projects {
+
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
+
+.project {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+img{
+    height: 200px;
+    width: auto;
+
+}

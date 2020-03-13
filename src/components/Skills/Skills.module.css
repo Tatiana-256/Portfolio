@@ -11,19 +11,23 @@
     display: flex;
     align-items: center;
     flex-direction: column ;
+    justify-content: center;
 }
 .items {
     display: flex;
     flex-wrap: wrap;
-    /*align-items: center;*/
-    /*justify-content: space-around; // не работает*/
+    align-items: center;
+    justify-content: center;
 }
 
 .item{
     display: flex;
     align-items: center;
+    flex-direction: column ;
+
 }
 
-img{
-    width: 150px;
+.item img{
+    width: 200px;
+    height: auto;
 }
