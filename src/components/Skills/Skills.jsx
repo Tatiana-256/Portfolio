@@ -10,9 +10,9 @@ import redux from '../../common/icons/redux.svg'
 function Skills() {
     return (
         <div className={styles.skills}>
-            <div className={styles.head}>My skills
-                <div className={styles.items}>
-                    <div className={styles.items}>
+            <div className={styles.head}>
+                <span>My skills</span>
+                    <div className={styles.itemsWrapper}>
                         <div className={styles.item}>
                             <img src={JS} alt="JS"/>
                             <span>Java script</span>
@@ -38,7 +38,6 @@ function Skills() {
                             <span>Redux</span>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     );

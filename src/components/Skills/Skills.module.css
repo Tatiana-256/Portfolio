@@ -1,33 +1,40 @@
 .skills{
     display: flex;
-    justify-content: center;
     height: 100vh;
     background-color: rgba(128, 248, 255, 0.36);
+    justify-content: center;
     }
 
-.head{
+.head {
     width: 80%;
     border: 1px solid;
     display: flex;
     align-items: center;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
+
 }
-.items {
+
+.itemsWrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
 .item{
     display: flex;
     align-items: center;
-    flex-direction: column ;
-
+    flex-direction: column;
 }
 
 .item img{
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 150px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .item img{
+        height: 100px;
+    }
 }

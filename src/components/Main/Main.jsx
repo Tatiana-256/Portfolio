@@ -6,9 +6,9 @@ function Main() {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
-                <div className={styles.description}>
+                <div className={styles.info}>
                     <span>Hello, I`m Tania</span>
-                    <span>Front-end developer</span>
+                    <h1>Front-end developer</h1>
                     <span>Welcome to my portfolio page</span>
                 </div>
                 <div className={styles.photo}>

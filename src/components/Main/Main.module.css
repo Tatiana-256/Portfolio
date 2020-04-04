@@ -1,6 +1,6 @@
 .main {
     height: 100vh;
-    background-color: rgba(62, 231, 255, 0.06);
+    background-color: rgb(77, 35, 107);
     display: flex;
     justify-content: center;
 
@@ -8,20 +8,52 @@
 
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.info span:nth-child(1){
+    font-size: 30px;
 }
 
 
-.description {
-    margin-left: 20%;
-    display: flex;
-    flex-direction: column;
+h1{
+    position: relative;
+    font-size: 60px;
+    letter-spacing: 4px;
+    z-index: 0;
+}
+
+h1:after{
+    content: '';
+    position: absolute;
+    width: 650px;
+    height: 20px;
+    background-color: beige;
+    z-index: -1;
+    bottom: 10px;
+
 }
 
 .photo img {
-    height: auto;
-    width: 50%;
-    margin-left: 20%;
+    height: 400px;
+    width: auto;
+}
+
+
+@media screen and (max-width: 400px) {
+    .photo img {
+        height: 300px;
+    }
 }

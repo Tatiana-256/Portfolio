@@ -15,4 +15,11 @@
 .formInput{
     display: flex;
     flex-direction: column;
+    width: 600px;
+}
+
+@media screen and (max-width: 850px) {
+    .formInput{
+        width: 80%;
+    }
 }
