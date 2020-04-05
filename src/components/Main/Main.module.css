@@ -2,7 +2,8 @@
     height: 100vh;
     background-color: rgb(77, 35, 107);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 50px 0px;
 
 }
 
@@ -12,48 +13,111 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+
 }
 
 .info {
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    font-family: 'Crimson Text', serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.info span:nth-child(1){
+.info span:nth-child(1) {
     font-size: 30px;
 }
 
 
-h1{
+.stl {
     position: relative;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 4px;
     z-index: 0;
 }
 
-h1:after{
+.stl:before {
     content: '';
     position: absolute;
-    width: 650px;
-    height: 20px;
-    background-color: beige;
+    width: 620px;
+    height: 15px;
+    background-color: rgba(232, 170, 245, 0.6);
     z-index: -1;
-    bottom: 10px;
+    bottom: 0px;
 
 }
 
 .photo img {
-    height: 400px;
+    height: 550px;
     width: auto;
+    border-radius: 100px;
+
+}
+
+.photo {
+    position: relative;
+    z-index: 0;
+}
+
+.photo:before {
+    content: '';
+    position: absolute;
+    border: 5px solid rgba(232, 170, 245, 0.6);
+    height: 570px;
+    width: 370px;
+    border-radius: 100px;
+    left: 7px;
+    top: -17px;
+    z-index: -1;
+
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1366px) {
+    .main {
+        font-size: 20px;
+    }
+
+    .photo img {
+        height: 400px;
+    }
+
+    .photo:before {
+        border: 5px solid rgba(232, 170, 245, 0.6);
+        height: 400px;
+        width: 270px;
+        left: 5px;
+        top: -10px;
+    }
+
+    .main .info,
+    .main .stl,
+    .info span:nth-child(1) {
+        font-size: 25px;
+    }
+
+    .stl:before {
+        width: 350px;
+        height: 8px;
+    }
+
+}
+
+@media screen and (max-width: 431px) {
     .photo img {
         height: 300px;
+    }
+
+    .stl:before {
+        width: 170px;
+    }
+
+    .main {
+        font-size: 20px;
+    }
+
+    .photo:before {
+        height: 300px;
+        width: 200px;
     }
 }

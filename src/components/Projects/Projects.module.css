@@ -1,27 +1,39 @@
 .projects {
-    height: 100vh;
-    background-color: rgba(62, 231, 255, 0.06);
+
     display: flex;
+    heightn: 100vh;
+    background-color: rgb(77, 35, 107);
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+
+
 }
 
 .mainBox {
     width: 80%;
-    border: 1px solid;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px;
 
 }
 
 
-.project {
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
 
+
+.project {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 40px 20px;
 
 }
 .image{

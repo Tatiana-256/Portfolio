@@ -7,8 +7,8 @@ function Main() {
         <div className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.info}>
-                    <span>Hello, I`m Tania</span>
-                    <h1>Front-end developer</h1>
+                    <span>Hello, I`m Tania Matviienko</span>
+                    <h1 className={styles.stl}>Front-end developer</h1>
                     <span>Welcome to my portfolio page</span>
                 </div>
                 <div className={styles.photo}>

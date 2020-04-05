@@ -1,25 +1,39 @@
-.contacts{
+.contacts {
     height: 100vh;
-    background-color: rgba(62, 231, 255, 0.06);
+    background-color: rgb(77, 35, 107);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .mainBox {
     width: 80%;
-    border: 1px solid;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.formInput{
+
+.contact {
     display: flex;
     flex-direction: column;
+
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 600px;
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
 @media screen and (max-width: 850px) {
-    .formInput{
+    .formInput {
         width: 80%;
     }
 }
