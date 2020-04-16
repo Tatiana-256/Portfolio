@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css';
-import portfoliophoto from '../../common/portfoliophoto.jpg'
+import portfoliophoto from '../../common/j.jpg'
 
 function Main() {
     return (
@@ -12,7 +12,7 @@ function Main() {
                     <span>Welcome to my portfolio page</span>
                 </div>
                 <div className={styles.photo}>
-                    <img src={portfoliophoto} alt="portfoliophoto"/>
+                    {/*<img src={portfoliophoto} alt="portfoliophoto"/>*/}
                 </div>
             </div>
         </div>

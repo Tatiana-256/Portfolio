@@ -1,12 +1,10 @@
 .footer{
     height: 150px;
-    background-color: rgba(232, 170, 245, 0.6);
+    background-color: white;
     display: flex;
     justify-content: center;
-
-
+    color: black;
 }
-
 .b{
     width: 80%;
     display: flex;
@@ -16,9 +14,12 @@
 
 }
 
-
 .icon{
-height: 80px;
+height: 60px;
+}
+
+.a{
+    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 400px) {

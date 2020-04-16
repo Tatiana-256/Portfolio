@@ -13,13 +13,13 @@ function Skills() {
             <div className={styles.container}>
 
                 <div className={styles.headerTitile}></div>
-                <h2 className={styles.blockTitle}>My skills</h2>
+                <div className={styles.blockTitle}>My skills</div>
                 <div className={styles.line}></div>
 
                 <div className={styles.itemsWrapper}>
                     <div className={styles.item}>
                         <div className={styles.icon}><img src={JS} alt="JS"/></div>
-                        <span  className={styles.skillTitle}>Java script</span>
+                        <span className={styles.skillTitle}>Java script</span>
                     </div>
                     <div className={styles.item}>
                         <div className={styles.icon}><img src={html5} alt="HTML"/></div>

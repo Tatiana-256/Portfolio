@@ -1,19 +1,22 @@
 .contacts {
     height: 100vh;
-    background-color: rgb(77, 35, 107);
+    background: linear-gradient(#000000, #ffffff);
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .mainBox {
     width: 80%;
+    /*border: 2px solid #ffffff;*/
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .contact {
+
     display: flex;
     flex-direction: column;
 
@@ -26,6 +29,9 @@
     width: 600px;
 }
 
+.cont{
+    margin: 25px 0px;
+}
 textarea{
     resize: none;
 }
@@ -33,7 +39,7 @@ textarea{
 .btn {
     display: flex;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 25px 0px;
 }
 
 @media screen and (max-width: 850px) {

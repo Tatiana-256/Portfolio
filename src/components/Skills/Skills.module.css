@@ -1,8 +1,8 @@
 .skills{
     display: flex;
-    min-heightn: 100vh;
-    background-color: rgba(232, 170, 245, 0.6);
-    color: black;
+    min-height: 100vh;
+    background: linear-gradient(#000000, #eeeeee);
+    color: white;
     justify-content: center;
 
     }
@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 0px;
+    padding: 25px 0px;
 
 }
 
@@ -26,8 +26,8 @@
 .line{
     height: 1.5px;
     width: 70px;
-    margin: 15px 0px;
-    background-color: rgb(77, 35, 107);
+    background-color: #ffffff;
+    margin-top: 25px;
 }
 
 .blockTitle{
@@ -46,6 +46,7 @@
     width: 30%;
     align-items: center;
     flex-direction: column;
+    margin-top: 25px;
 
 }
 
