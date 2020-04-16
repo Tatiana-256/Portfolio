@@ -30,40 +30,9 @@
 }
 
 
-.stl {
-    position: relative;
-    font-size: 50px;
-    letter-spacing: 4px;
-    z-index: 0;
-}
-
-.stl:before {
-    content: '';
-    position: absolute;
-    width: 620px;
-    height: 15px;
-    z-index: -1;
-    bottom: 0px;
-
-}
-
-.photo img {
-    height: 750px;
-    width: auto;
-
-}
-
 @media screen and (max-width: 1345px) {
     .main {
         font-size: 40px;
-    }
-
-    .photo:before {
-        border: 5px solid rgba(232, 170, 245, 0.6);
-        height: 400px;
-        width: 270px;
-        left: 5px;
-        top: -10px;
     }
 
     .main .info,
@@ -71,29 +40,51 @@
     .info span:nth-child(1) {
         font-size: 25px;
     }
-
-    .stl:before {
-        width: 350px;
-        height: 8px;
     }
 
-}
-
-@media screen and (max-width: 431px) {
-    .photo img {
-        height: 300px;
-    }
-
-    .stl:before {
-        width: 170px;
-    }
-
-    .main {
+@media screen and (max-width: 950px) {
+    .main .info,
+    .main .stl,
+    .info span:nth-child(1) {
         font-size: 20px;
     }
+}
 
-    .photo:before {
-        height: 300px;
-        width: 200px;
+@media screen and (max-width: 765px) { .main .info,
+.main .stl,
+.info span:nth-child(1) {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 631px) {
+
+    .main .info,
+    .main .stl,
+    .info span:nth-child(1) {
+        font-size: 12px;
     }
+    .main {
+        height: 60vh}
+}
+
+@media screen and (max-width: 550px) {
+
+    .main .info,
+    .main .stl,
+    .info span:nth-child(1) {
+        font-size: 10px;
+    }
+    .main {
+        height: 50vh}
+}
+
+@media screen and (max-width: 470px) {
+    .main {
+        height: 70vh;
+    flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
 }

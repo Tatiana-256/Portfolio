@@ -11,9 +11,6 @@ function Main() {
                     <h1 className={styles.stl}>Front-end developer</h1>
                     <span>Welcome to my portfolio page</span>
                 </div>
-                <div className={styles.photo}>
-                    {/*<img src={portfoliophoto} alt="portfoliophoto"/>*/}
-                </div>
             </div>
         </div>
     );
