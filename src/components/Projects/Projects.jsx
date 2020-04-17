@@ -10,12 +10,13 @@ function Projects() {
         <div className={styles.projects}>
             <div className={styles.mainBox}>
                 <div className={styles.blockTitle}><span>My projects</span></div>
+                <div className={styles.line}></div>
                 <div className={styles.wrapper}>
-                    <div className={styles.project}>
-                        <img className={styles.image} src={network} alt="socialNetwork"/>
-                        <div> Social network</div>
-                        <Button name={'Show'}/>
-                    </div>
+                    {/*<div className={styles.project}>*/}
+                    {/*    <img className={styles.image} src={network} alt="socialNetwork"/>*/}
+                    {/*    <div> Social network</div>*/}
+                    {/*    <Button name={'Show'}/>*/}
+                    {/*</div>*/}
                     <div className={styles.project}>
                         <img className={styles.image} src={shop} alt="Online-shop" className={styles.image}/>
                         <div>Online-shop</div>

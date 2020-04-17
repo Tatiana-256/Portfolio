@@ -1,6 +1,6 @@
 .projects {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     background-color: black;
     justify-content: space-evenly;
     align-items: center;
@@ -9,19 +9,24 @@
 
 .mainBox {
     width: 80%;
-    margin: 80px 0px;
-    background-color: white;
+    /*margin: 80px 0px;*/
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     padding: 25px 0px;
-    color: black;
+    color: white;
 
 }
 
+.line {
+    height: 1.5px;
+    width: 90px;
+    background-color: #ffffff;
+    margin-top: 25px;
+}
 
-.wrapper{
+.wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -33,22 +38,47 @@
     align-items: center;
     flex-direction: column;
     margin-top: 25px;
-    padding: 0px 10px;
+    padding: 0px 30px;
 }
-.image{
-    height: auto;
-    width: 400px;
+
+.image {
+    height: 300px;
+    width: auto;
 }
 
 @media screen and (max-width: 1000px) {
-    .image{
-        height: auto;
-        width: 300px;
+    .image {
+        height: 250px;
     }
 }
-@media screen and (max-width: 400px) {
-    .image{
-        height: auto;
-        width: 200px;
+
+@media screen and (max-width: 630px) {
+    .image {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .image {
+        height: 150px;
+    }
+    .projects {
+        min-height: 80vh;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .image {
+        height: 100px;
+    }
+
+    .projects {
+        min-height: 60vh;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .image {
+        height: 80px;
     }
 }

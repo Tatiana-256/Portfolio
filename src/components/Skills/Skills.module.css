@@ -1,15 +1,14 @@
 .skills {
     display: flex;
     min-height: 100vh;
-    background-color: #000000;
+    background-color: #ffffff;
     color: white;
     justify-content: center;
 }
 
 .container {
-    background-color: #ffffff;
     width: 80%;
-    margin: 80px 0px;
+    margin: 60px 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -65,12 +64,15 @@
     .itemsWrapper {
         font-size: 15px
     }
+    .skills {
+        min-height: 70vh
+    }
 }
 
 
 @media screen and (max-width: 480px) {
     .skills {
-        min-height: 90vh
+        min-height: 40vh
     }
     .item img {
         height: 50px;
@@ -78,4 +80,6 @@
     .itemsWrapper {
         font-size: 12px
     }
+    .container {
+        margin: 40px 0px;}
 }

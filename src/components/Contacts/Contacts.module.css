@@ -26,10 +26,11 @@
     width: 600px;
 }
 
-.cont{
+.cont {
     margin: 25px 0px;
 }
-textarea{
+
+textarea {
     resize: none;
 }
 
@@ -42,5 +43,11 @@ textarea{
 @media screen and (max-width: 850px) {
     .formInput {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contacts {
+        font-size: 12px
     }
 }
