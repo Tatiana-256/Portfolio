@@ -93,12 +93,29 @@
     .main {
         background-size: 140%;
         height: 60vh;
+    }
 }
+
+
+@media screen and (max-width: 380px) {
+    .main {
+        background-size: 160%;
+        height: 60vh;
+    }
+
     .main .info,
     .main .stl,
     .info span:nth-child(1) {
         width: 160px;
         font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .main .info,
+    .main .stl,
+    .info span:nth-child(1) {
+        width: 150px;
     }
 }
 

@@ -4,7 +4,6 @@
     background-color: #000000;
     color: white;
     justify-content: center;
-
 }
 
 .container {
@@ -62,12 +61,17 @@
     .item img {
         height: 80px;
     }
+
+    .itemsWrapper {
+        font-size: 15px
+    }
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .skills {
-        min-height: 90vh}
+        min-height: 90vh
+    }
     .item img {
         height: 50px;
     }
