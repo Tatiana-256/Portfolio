@@ -1,12 +1,11 @@
-.skills{
+.skills {
     display: flex;
     min-height: 100vh;
-    /*background: linear-gradient(#000000, #eeeeee);*/
     background-color: #000000;
     color: white;
     justify-content: center;
 
-    }
+}
 
 .container {
     background-color: #ffffff;
@@ -19,20 +18,20 @@
 
 }
 
-.headerTitle{
+.headerTitle {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.line{
+.line {
     height: 1.5px;
     width: 90px;
     background-color: #000000;
     margin-top: 25px;
 }
 
-.blockTitle{
+.blockTitle {
     font-weight: 700;
     color: black;
 }
@@ -44,7 +43,7 @@
     justify-content: space-between;
 }
 
-.item{
+.item {
     display: flex;
     width: 30%;
     align-items: center;
@@ -54,20 +53,25 @@
 
 }
 
-.item img{
+.item img {
     width: auto;
     height: 90px;
 }
 
 @media screen and (max-width: 700px) {
-    .item img{
+    .item img {
         height: 80px;
     }
 }
 
 
 @media screen and (max-width: 380px) {
-    .item img{
-        height: 70px;
+    .skills {
+        min-height: 90vh}
+    .item img {
+        height: 50px;
+    }
+    .itemsWrapper {
+        font-size: 12px
     }
 }

@@ -13,7 +13,9 @@ function Footer() {
                     <img src={linkedin} alt="" className={styles.icon}/>
                     <img src={git} alt="GIT" className={styles.icon}/>
                 </div>
-                <div className={styles.a}>© 2020 All Rights Reserved.</div>
+                <div className={styles.allR}>
+                    <div className={styles.a}>© 2020 All Rights Reserved.</div>
+                </div>
             </div>
         </div>
     );

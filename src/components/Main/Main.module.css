@@ -91,14 +91,14 @@
 
 @media screen and (max-width: 480px) {
     .main {
-        background-size: 120%;
+        background-size: 140%;
         height: 60vh;
-}}
-
-@media screen and (max-width: 480px) {
+}
     .main .info,
     .main .stl,
     .info span:nth-child(1) {
-        width: 180px;
+        width: 160px;
+        font-size: 6px;
     }
 }
+
