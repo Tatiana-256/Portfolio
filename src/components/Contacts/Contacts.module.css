@@ -44,10 +44,13 @@ textarea {
     .formInput {
         width: 90%;
     }
+    .contacts {
+        height: 80vh;}
 }
 
 @media screen and (max-width: 450px) {
     .contacts {
-        font-size: 12px
+        font-size: 12px;
+        height: 60vh;
     }
 }
