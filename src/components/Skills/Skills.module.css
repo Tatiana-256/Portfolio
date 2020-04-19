@@ -35,6 +35,7 @@
 }
 
 .itemsWrapper {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -42,6 +43,7 @@
 }
 
 .item {
+
     display: flex;
     width: 30%;
     align-items: center;

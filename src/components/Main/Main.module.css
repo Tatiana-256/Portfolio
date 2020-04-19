@@ -6,7 +6,8 @@
     background-image: url("../../common/pr.jpg");
     background-size: 100% auto;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    /*background-attachment: fixed*/
 }
 
 .container {
