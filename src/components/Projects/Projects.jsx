@@ -19,13 +19,19 @@ function Projects() {
                     {/*</div>*/}
                     <div className={styles.project}>
                         <img className={styles.image} src={shop} alt="Online-shop" className={styles.image}/>
-                        <div>Online-shop</div>
-                        <Button name={'Show'}/>
+                        <div className={styles.prj}>
+                            <div>Online-shop</div>
+                            <div className={styles.btn}>
+                                <Button name={'Show'}/>
+                            </div>
+                        </div>
                     </div>
                     <div className={styles.project}>
                         <img className={styles.image} src={omni} alt="OmniFood" className={styles.image}/>
-                        <div>OmniFood</div>
-                        <Button name={'Show'}/>
+                        <div className={styles.prj}>
+                            <div>OmniFood</div>
+                            <Button name={'Show'}/>
+                        </div>
                     </div>
                 </div>
             </div>
