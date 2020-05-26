@@ -1,41 +1,89 @@
-a{
+a {
     color: white;
+    text-decoration: none;
+
 }
 
-.nav{
+.nav {
     width: 850px;
     justify-content: space-around;
     display: flex;
 }
 
-.link{
+
+.menu {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
     text-decoration: none;
 }
 
-@media screen and (max-width: 1000px){
-
-    .nav{
-        width: 700px}
+.high {
+    display: none;
 }
 
-@media screen and (max-width: 700px){
-    .link{
-       font-size: 18px;
+
+.burgerMenu {
+    display: none;
+    /*margin-right: 36px;/*/
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .nav {
+        width: 700px
     }
-    .nav{
-        width: 550px}
 }
 
-@media screen and (max-width: 605px){
-    .link{
+@media screen and (max-width: 700px) {
+    .link {
+        font-size: 18px;
+    }
+
+    .nav {
+        width: 550px
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .link {
         font-size: 14px;
     }
-    .nav{
-        width: 400px}
+
+    .nav {
+        width: 400px
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .burgerMenu {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .high {
+        display: block;
+        /*width: 50px;*/
+        text-align: right;
+    }
+
     .nav {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
         flex-direction: column;
+        width: 110px;
+
+    }
+    .n{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 }
+

@@ -53,11 +53,11 @@
 
 @media screen and (max-width: 670px) {
     .main .stl {
-        font-size: 27px;
+        font-size: 24px;
     }
     .main .info,
     .info span:nth-child(1) {
-        font-size: 14px;
+        font-size: 10px;
     }
     .main {
         height: 80vh
@@ -66,9 +66,7 @@
 
 @media screen and (max-width: 631px) {
 
-    .main .stl {
-        font-size: 20px;
-    }
+
     .main .info,
     .info span:nth-child(1) {
         font-size: 12px;
@@ -85,12 +83,12 @@
     }
     .main .info,
     .info span:nth-child(1) {
-        width: 200px;
+        width: 250px;
+        margin-right: 20px;
     }
 
     .main {
-        height: 50vh;
-        background-size: 160%;
+        background-size: 120%;
         background-position: left;
         height: 70vh;
         justify-content: flex-end;
@@ -99,9 +97,11 @@
 
 @media screen and (max-width: 480px) {
     .main {
-        background-size: 140%;
         height: 60vh;
     }
+    .main .info,
+    .info span:nth-child(1) {
+        width: 200px}
 }
 
 
@@ -112,11 +112,12 @@
     }
 
     .main .stl {
-        font-size: 13px;
+        font-size: 12px;
     }
     .main .info,
     .info span:nth-child(1) {
         font-size: 10px;
+        width: 170px
     }
 }
 
