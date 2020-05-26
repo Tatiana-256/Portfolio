@@ -6,8 +6,8 @@ import {ActionsType} from './actions'
 type initialStateType = typeof initialState
 
 const initialState = {
-    navMenu: true,
-    burger: false
+    navMenu: false,
+    burger: true
 }
 
 const navMenuReducer = (state = initialState, action: ActionsType): initialStateType => {

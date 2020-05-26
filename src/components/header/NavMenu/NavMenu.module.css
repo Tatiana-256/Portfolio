@@ -8,6 +8,7 @@ a {
     width: 850px;
     justify-content: space-around;
     display: flex;
+    list-style: none;
 }
 
 
@@ -80,7 +81,8 @@ a {
         width: 110px;
 
     }
-    .n{
+
+    .n {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;

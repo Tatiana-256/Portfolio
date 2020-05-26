@@ -7,26 +7,20 @@ import {AppStateType} from "../../../redux-store/store";
 import Menu from "./Menu";
 
 function NavMenu(props: PropsType) {
-
-    const styleNav = props.navMenu ? styles.nav : styles.navShow
-    return (
+    let width = window.innerWidth
+    if (width > 480) {
+        return <Menu/>
+    } else return (
         <div>
-            {props.navMenu ?
-                <div className={styles.n}>
-                    <div className={styles.nav}>
-                        <li className={styles.link}><a href='/'>Main</a></li>
-                        <li className={styles.link}><a href='/'>Skills</a></li>
-                        <li className={styles.link}><a href='/'>Projects</a></li>
-                        <li className={styles.link}><a href='/'>Contacts</a></li>
-                    </div>
-                    <div className={styles.high} onClick={props.highNavMenu}>x</div>
-                </div>
-                :
-                <div className={styles.burgerMenu} onClick={props.showNavMenu}>
-                    <div className={styles.menu}/>
-                    <div className={styles.menu}/>
-                    <div className={styles.menu}/>
-                </div>}
+            {
+                props.navMenu ?
+                    <Menu highNavMenu={props.highNavMenu}/>
+                    :
+                    <div className={styles.burgerMenu} onClick={props.showNavMenu}>
+                        <div className={styles.menu}/>
+                        <div className={styles.menu}/>
+                        <div className={styles.menu}/>
+                    </div>}
 
         </div>
 
