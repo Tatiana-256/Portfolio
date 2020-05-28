@@ -4,7 +4,7 @@ import Button from "../button/button";
 
 function Contacts() {
     return (
-        <div className={styles.contacts}>
+        <div className={styles.contacts} id ='Contacts'>
             <div className={styles.mainBox}><div  className={styles.cont}>Contact me</div>
                 <form className={styles.formInput}>
                     <div className={styles.contact}>

@@ -9,7 +9,7 @@ import redux from '../../common/icons/redux.svg'
 
 function Skills() {
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id='Skills'>
             <div className={styles.container}>
 
                 <div className={styles.headerTitile}></div>

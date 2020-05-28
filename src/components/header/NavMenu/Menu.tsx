@@ -3,12 +3,12 @@ import styles from "./NavMenu.module.css";
 
 const Menu = (props: any) => {
     return <div className={styles.n}>
-        <div className={styles.nav}>
-            <li className={styles.link}><a href='/'>Main</a></li>
-            <li className={styles.link}><a href='/'>Skills</a></li>
-            <li className={styles.link}><a href='/'>Projects</a></li>
-            <li className={styles.link}><a href='/'>Contacts</a></li>
-        </div>
+        <ul className={styles.nav}>
+            <li className={styles.link}><a href='#Main'>Main</a></li>
+            <li className={styles.link}><a href='#Skills'>Skills</a></li>
+            <li className={styles.link}><a href='#Projects'>Projects</a></li>
+            <li className={styles.link}><a href='#Contacts'>Contacts</a></li>
+        </ul>
         <div className={styles.high} onClick={props.highNavMenu}>x</div>
     </div>
 }

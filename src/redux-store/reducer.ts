@@ -7,18 +7,17 @@ type initialStateType = typeof initialState
 
 const initialState = {
     navMenu: false,
-    burger: true
 }
 
 const navMenuReducer = (state = initialState, action: ActionsType): initialStateType => {
     switch (action.type) {
         case "SHOW_NAV_MENU":
             return {
-                ...state, navMenu: true, burger: false
+                ...state, navMenu: true
             }
         case "HIGH_NAV_MENU":
             return {
-                ...state, navMenu: false, burger: true
+                ...state, navMenu: false
             }
         default: return state
     }

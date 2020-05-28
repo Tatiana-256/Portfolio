@@ -11,7 +11,7 @@ function NavMenu(props: PropsType) {
     if (width > 480) {
         return <Menu/>
     } else return (
-        <div>
+        <>
             {
                 props.navMenu ?
                     <Menu highNavMenu={props.highNavMenu}/>
@@ -21,8 +21,7 @@ function NavMenu(props: PropsType) {
                         <div className={styles.menu}/>
                         <div className={styles.menu}/>
                     </div>}
-
-        </div>
+        </>
 
     );
 }
@@ -30,8 +29,7 @@ function NavMenu(props: PropsType) {
 
 const mapStateToProps = (state: AppStateType): mapStateToPropsType => {
     return {
-        navMenu: state.navMenu.navMenu,
-        burger: state.navMenu.burger
+        navMenu: state.navMenu.navMenu
     };
 };
 
@@ -59,7 +57,6 @@ type mapDispatchToPropsType = {
 }
 type mapStateToPropsType = {
     navMenu: boolean
-    burger: boolean
 }
 
 type ownProps = {}

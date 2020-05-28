@@ -4,7 +4,7 @@ import NavMenu from "./NavMenu/NavMenu";
 
 function Header() {
     return (
-        <div className={styles.header}>
+        <div className={styles.header} id ='Main'>
             <div className={styles.container}>
                 <NavMenu/>
             </div>
