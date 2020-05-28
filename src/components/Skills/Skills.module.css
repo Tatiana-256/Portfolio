@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 480px) {
     .skills {
-        min-height: 40vh
+        min-height: 60vh
     }
     .item img {
         height: 50px;

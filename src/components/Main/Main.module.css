@@ -97,7 +97,8 @@
 
 @media screen and (max-width: 480px) {
     .main {
-        height: 60vh;
+        height: 80vh;
+        background-size: 140%
     }
     .main .info,
     .info span:nth-child(1) {
