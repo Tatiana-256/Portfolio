@@ -109,7 +109,7 @@
 @media screen and (max-width: 380px) {
     .main {
         background-size: 130%;
-        height: 50vh;
+        height: 70vh;
     }
 
     .main .stl {
