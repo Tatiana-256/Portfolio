@@ -11,9 +11,9 @@ function Contacts() {
 
                 <form className={styles.formInput}>
                     <div className={styles.contact}>
-                        <input type="text" placeholder="Name"/>
-                        <input type="email" placeholder="E-mail"/>
-                        <textarea placeholder="Your message"></textarea>
+                        <input className={styles.forHover} type="text" placeholder="Name"/>
+                        <input className={styles.forHover}  type="email" placeholder="E-mail"/>
+                        <textarea className={styles.forHover}  placeholder="Your message"></textarea>
                     </div>
                     <div className={styles.btn}><Button name={'Submit'}/></div>
                 </form>
