@@ -6,43 +6,26 @@ import css from '../../common/icons/css3.svg'
 import git from '../../common/icons/github.svg'
 import react from '../../common/icons/react-native.svg'
 import redux from '../../common/icons/redux.svg'
+import {Fade} from "react-reveal";
+import Skill from "./Skill";
 
 function Skills() {
     return (
         <div className={styles.skills} id='Skills'>
-            <div className={styles.container}>
-
-                <div className={styles.headerTitile}></div>
-                <div className={styles.blockTitle}>My skills</div>
-                <div className={styles.line}></div>
-
-                <div className={styles.itemsWrapper}>
-                    <div className={styles.item}>
-                        <div className={styles.icon}><img src={JS} alt="JS"/></div>
-                        <span className={styles.skillTitle}>Java script</span>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.icon}><img src={html5} alt="HTML"/></div>
-                        <span>HTML</span>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.icon}><img src={css} alt="CSS"/></div>
-                        <span>CSS</span>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.icon}><img src={git} alt="GIT"/></div>
-                        <span>GIT</span>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.icon}><img src={react} alt="React"/></div>
-                        <span>React</span>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.icon}><img src={redux} alt="Redux"/></div>
-                        <span>Redux</span>
+            <Fade bottom>
+                <div className={styles.container}>
+                    <div className={styles.blockTitle}>My skills</div>
+                    <div className={styles.line}/>
+                    <div className={styles.itemsWrapper}>
+                        <Skill style={JS} alt='JS' title='JavaScript'/>
+                        <Skill style={html5} alt='HTML' title='HTML'/>
+                        <Skill style={css} alt='CSS' title='CSS'/>
+                        <Skill style={git} alt='GIT' title='GIT'/>
+                        <Skill style={react} alt='React' title='React'/>
+                        <Skill style={redux} alt='Redux' title='Redux'/>
                     </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }

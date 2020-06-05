@@ -3,7 +3,6 @@ import styles from './Footer.module.css';
 import git from '../../common/icons/github.svg'
 import linkedin from '../../common/icons/linkedin.svg'
 import facebook from '../../common/icons/facebook.svg'
-import {Link} from "react-router-dom";
 
 function Footer() {
     return (

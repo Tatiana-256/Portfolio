@@ -4,20 +4,21 @@ import styles from "./project.module.css";
 type PropsType = {
     style: CSSProperties,
     title: string,
-    description: string
+    description: string,
+    url: string
 
 }
 
 const Project = (props: PropsType) => {
-    return <div className={styles.project}>
+    return <a className={styles.project} href={props.url}>
         <div className={styles.projectImg} style={props.style}>
-            <a className={styles.btnShow} href=''>Show</a>
+            {/*<a className={styles.btnShow} >Show</a>*/}
         </div>
         <span className={styles.projectTitle}>{props.title}</span>
         <div className={styles.line}/>
         <span className={styles.description}>{props.description}</span>
 
-    </div>
+    </a>
 }
 
 export default Project
