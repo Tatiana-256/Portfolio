@@ -24,7 +24,7 @@
 
 .line {
     height: 1.5px;
-    width: 90px;
+    width: 140px;
     background-color: #000000;
     margin-top: 25px;
 }
@@ -66,6 +66,7 @@
     .itemsWrapper {
         font-size: 15px
     }
+
     .skills {
         min-height: 70vh
     }
@@ -76,12 +77,16 @@
     .skills {
         min-height: 60vh
     }
+
     .item img {
         height: 50px;
     }
+
     .itemsWrapper {
         font-size: 12px
     }
+
     .container {
-        margin: 40px 0px;}
+        margin: 40px 0px;
+    }
 }
