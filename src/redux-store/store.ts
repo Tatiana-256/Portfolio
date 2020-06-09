@@ -1,8 +1,10 @@
 import {combineReducers, createStore} from "redux";
-import navMenuReducer from "./reducer";
+import navMenuReducer from "./reducers/reducer";
+import formReducer from "./reducers/formReducer";
 
 let reducers = combineReducers({
-    navMenu: navMenuReducer
+    navMenu: navMenuReducer,
+    contactForm: formReducer
 });
 
 

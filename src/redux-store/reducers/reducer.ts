@@ -1,4 +1,4 @@
-import {ActionsType} from './actions'
+import {ActionsType} from '../actions'
 
 
 // _______-types_____________
@@ -23,3 +23,5 @@ const navMenuReducer = (state = initialState, action: ActionsType): initialState
     }
 }
 export default navMenuReducer
+
+
