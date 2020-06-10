@@ -22,9 +22,7 @@ function Contacts(props) {
         }).then((response) => {
             debugger
             if (response.data) {
-                // alert("Message Sent.");
                 props.sentMessage()
-                // resetForm()
             } else {
                 alert("Message failed to send.")
             }
@@ -43,12 +41,12 @@ function Contacts(props) {
     let onMessageChange = (event) => {
         setMessage(event.currentTarget.value)
     }
-
-    let resetForm = () => {
-        setEmail('')
-        setMessage('')
-        setName('')
-    }
+    //
+    // let resetForm = () => {
+    //     setEmail('')
+    //     setMessage('')
+    //     setName('')
+    // }
 
 
     return (
@@ -56,12 +54,11 @@ function Contacts(props) {
             <div className={styles.mainBox}>
                 <Fade bottom>
                     {props.messageAfterFillingForm ?
-                        <div>
-                            <div>Thank you!</div>
-                            <div>Your message send</div>
+                        <div className={styles.answer}>
+                            <div>Thanks for message!</div>
+                            {/*<div>Your message send</div>*/}
                             <div>I will contact you as soon as possible</div>
                         </div>
-
                         :
                         <form className={styles.formInput} onSubmit={submitMyForm}>
                             <div className={styles.cont}>Contact me</div>
