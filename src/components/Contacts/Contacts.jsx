@@ -15,7 +15,7 @@ function Contacts(props) {
 
     let submitMyForm = (e) => {
         e.preventDefault()
-        axios.post('https://smtp-nodejs-portfolio-server.herokuapp.com/', {
+        axios.post('https://smtp-nodejs-portfolio-server.herokuapp.com/sendMessage', {
             name: name,
             email: email,
             message: message
