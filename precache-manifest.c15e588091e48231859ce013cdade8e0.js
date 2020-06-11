@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e29a99d657ebf846da9de0366aeb7d50",
+    "revision": "28d4f0370ddfe5ba824cc6612ef15c93",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "56044a4e32525b6a1354",
-    "url": "/Portfolio/static/css/main.98dded07.chunk.css"
+    "revision": "90f4289598daae682b3f",
+    "url": "/Portfolio/static/css/main.80103774.chunk.css"
   },
   {
     "revision": "1a83ec13d2b1df09f46d",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.b46cbf61.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56044a4e32525b6a1354",
-    "url": "/Portfolio/static/js/main.bc8337b5.chunk.js"
+    "revision": "90f4289598daae682b3f",
+    "url": "/Portfolio/static/js/main.a924aa42.chunk.js"
   },
   {
     "revision": "425e952245b014fc3ffb",
     "url": "/Portfolio/static/js/runtime-main.db605a1d.js"
   },
   {
-    "revision": "379e047c6ec57f81b62d3d4217f54692",
-    "url": "/Portfolio/static/media/counter.379e047c.PNG"
+    "revision": "1cb5c9805a9b377590eb7155a1357336",
+    "url": "/Portfolio/static/media/counter.1cb5c980.PNG"
   },
   {
     "revision": "fcedbf22e17f156e82599e4f3c3309f4",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/linkedin.d849bc25.svg"
   },
   {
-    "revision": "fa8e12f52f0214a27ae7ab257a7c1db9",
-    "url": "/Portfolio/static/media/omni.fa8e12f5.png"
+    "revision": "1a87dcd4ae6f4c4116b8fb76c6375902",
+    "url": "/Portfolio/static/media/omni.1a87dcd4.png"
   },
   {
-    "revision": "a4e5787006dd43307aa89b8a57f664c3",
-    "url": "/Portfolio/static/media/pr.a4e57870.jpg"
+    "revision": "3fc334c3bb01d9cc49b983f090879089",
+    "url": "/Portfolio/static/media/pr.3fc334c3.jpg"
   },
   {
     "revision": "eae78e809fcfe9799d89753d05234867",
@@ -68,11 +68,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/redux.5d7e10d2.svg"
   },
   {
-    "revision": "aee5a0d2e7ad1917df1aca79b0fd2d1f",
-    "url": "/Portfolio/static/media/shop.aee5a0d2.png"
+    "revision": "78ac359d255b862da28676e596ee724a",
+    "url": "/Portfolio/static/media/shop.78ac359d.png"
   },
   {
-    "revision": "408ca3c34028a9a2a55052982fae57ed",
-    "url": "/Portfolio/static/media/toDo.408ca3c3.PNG"
+    "revision": "caaff995c249c47be6d63c44a3b8a0d9",
+    "url": "/Portfolio/static/media/toDo.caaff995.PNG"
   }
 ]);
