@@ -54,8 +54,17 @@ a {
     }
 
     .high {
-        display: block;
         text-align: right;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 34px;
+        letter-spacing: initial;
+        border-radius: 50%;
+        font-family: "Century Schoolbook";
+
     }
 
     .nav {
