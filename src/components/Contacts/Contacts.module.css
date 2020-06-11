@@ -64,7 +64,7 @@ textarea {
     margin: 20px 0;
     width: 560px;
     height: 236px;
-    background: rgba(255, 255, 255, 0.90);
+    background: white;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -85,11 +85,11 @@ textarea {
 }
 .answer:before {
     top: -90px;
-    border-bottom: 90px solid rgba(255, 255, 255, 0.90);
+    border-bottom: 90px solid white;
 }
 .answer:after {
     bottom: -90px;
-    border-top: 90px solid rgba(255, 255, 255, 0.90);
+    border-top: 90px solid white;
 }
 
 
@@ -139,11 +139,11 @@ textarea {
     }
         .answer:before {
         top: -40px;
-        border-bottom: 40px solid rgba(255, 255, 255, 0.90);
+        border-bottom: 40px solid white;
     }
     .answer:after {
         bottom: -40px;
-        border-top: 40px solid rgba(255, 255, 255, 0.90);
+        border-top: 40px solid white;
     }
 
     .answer div{

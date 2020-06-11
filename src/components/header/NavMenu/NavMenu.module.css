@@ -10,7 +10,11 @@ a {
     align-items: center;
     display: flex;
     list-style: none;
+}
 
+.n{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -57,7 +61,7 @@ a {
         text-align: right;
         border: 1px solid white;
         display: flex;
-        align-items: center;
+        align-items: center ;
         justify-content: center;
         height: 30px;
         width: 34px;
