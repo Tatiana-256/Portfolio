@@ -52,4 +52,7 @@
    .btn {
         font-size: 15px
     }
+    .btn::after{
+        display: none;
+    }
 }

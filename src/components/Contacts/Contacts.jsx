@@ -41,12 +41,6 @@ function Contacts(props) {
     let onMessageChange = (event) => {
         setMessage(event.currentTarget.value)
     }
-    //
-    // let resetForm = () => {
-    //     setEmail('')
-    //     setMessage('')
-    //     setName('')
-    // }
 
 
     return (
@@ -56,7 +50,6 @@ function Contacts(props) {
                     {props.messageAfterFillingForm ?
                         <div className={styles.answer}>
                             <div>Thanks for message!</div>
-                            {/*<div>Your message send</div>*/}
                             <div>I will contact you as soon as possible</div>
                         </div>
                         :
