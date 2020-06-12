@@ -32,7 +32,8 @@ function Projects() {
                         <Project style={toDoListImg} title='To do List'
                                  description='React makes it painless to create interactive UIs.'
                                  url='https://tatiana-256.github.io/To-do-list/'/>
-                        <Project style={omniImg} title='Omnofood'
+                        <Project style={omniImg} title='Omnifood'
+                                 url='https://tatiana-256.github.io/OmniFood/'
                                  description='Declarative views make your code more predictable and easier to debug.'/>
                         <Project style={shopImg} title='Online-shop'
                                  url='https://your-online-shop-ua.herokuapp.com/'
