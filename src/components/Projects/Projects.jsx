@@ -30,16 +30,16 @@ function Projects() {
                 <div className={styles.projectsWrapper}>
                     <Fade bottom>
                         <Project style={toDoListImg} title='To do List'
-                                 description='React makes it painless to create interactive UIs.'
+                                 description='Use in project technologists as JavaScript, TypeScript, React, Redux, Axios, API requests'
                                  url='https://tatiana-256.github.io/To-do-list/'/>
-                        <Project style={omniImg} title='Omnifood'
-                                 url='https://tatiana-256.github.io/OmniFood/'
-                                 description='Declarative views make your code more predictable and easier to debug.'/>
                         <Project style={shopImg} title='Online-shop'
                                  url='https://your-online-shop-ua.herokuapp.com/'
-                                 description='Try the Babel REPL to see the raw JavaScript code produced by the JSX compilation step.'/>
+                                 description='The site was built by technologies such JavaScript, React, Redux, SCSS, redux-saga, SignUp with google account, use Firebase.'/>
+                        <Project style={omniImg} title='Omnifood'
+                                 url='https://tatiana-256.github.io/OmniFood/'
+                                 description='Built site with JavaScript HTML5 and CSS3 '/>
                         <Project style={calculatorImg} title='Counter'
-                                 description='React allows you to interface with other libraries and frameworks'/>
+                                 description='Use JavaScript, TypeScript, React, Redux'/>
                     </Fade>
                 </div>
             </div>
