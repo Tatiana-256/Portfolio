@@ -39,7 +39,8 @@ function Projects() {
                                  url='https://tatiana-256.github.io/OmniFood/'
                                  description='Built site with JavaScript HTML5 and CSS3 '/>
                         <Project style={calculatorImg} title='Counter'
-                                 description='Use JavaScript, TypeScript, React, Redux'/>
+                                 description='Use JavaScript, TypeScript, React, Redux'
+                                 url='https://tatiana-256.github.io/counter/'/>
                     </Fade>
                 </div>
             </div>
