@@ -7,7 +7,7 @@ const Menu = (props: any) => {
             <li className={styles.link}><a href='#Main'>Main</a></li>
             <li className={styles.link}><a href='#Skills'>Skills</a></li>
             <li className={styles.link}><a href='#Projects'>Projects</a></li>
-            <li className={styles.link}><a href='#Contacts'>Contacts</a></li>
+            <li className={styles.link}><a href='#Contacts'>ContactsContainer</a></li>
         </ul>
         <div className={styles.high} onClick={props.highNavMenu}>x</div>
     </div>

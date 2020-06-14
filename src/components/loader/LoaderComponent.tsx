@@ -1,9 +1,14 @@
 import React from 'react'
-import styles from './loader.module.css'
+import './loader.css'
 
-const Loader =()=>{
-    return <div className={styles.position}>
-        <div className={styles.loader}/>
+const Loader = () => {
+    return <div className='load'>
+        <div className="lds-ellipsis">
+            <div/>
+            <div/>
+            <div/>
+            <div/>
+        </div>
     </div>
 }
 
