@@ -65,3 +65,10 @@
         transform: translate(24px, 0);
     }
 }
+
+
+@media screen and (max-width: 550px) {
+    .lds-ellipsis div {
+        height: 2px;
+    }
+}
