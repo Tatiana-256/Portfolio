@@ -1,8 +1,6 @@
 // _______-types_____________
 
 import {ActionsType} from "../actions";
-import ContactForm from "../../components/Contacts/Contacts";
-import React from "react";
 
 type initialStateType = typeof initialState
 

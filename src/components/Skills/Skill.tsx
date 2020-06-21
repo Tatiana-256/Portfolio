@@ -1,5 +1,5 @@
 import styles from "./Skills.module.css";
-import React, {CSSProperties} from "react";
+import React from "react";
 
 type PropsType = {
     style: string,
