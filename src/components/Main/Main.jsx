@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Main.module.css';
 import {Fade} from "react-reveal";
 
+
+
 function Main() {
     return (
         <div className={styles.main}>
