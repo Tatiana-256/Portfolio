@@ -48,6 +48,7 @@
 }
 
 .description {
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 14px;
     width: 380px;
     text-align: left;
@@ -73,7 +74,8 @@
         width: 500px;
         height: 280px;
     }
-    .description{
+
+    .description {
         width: 500px;
     }
 }
@@ -84,9 +86,11 @@
         width: 320px;
         margin-bottom: 10px;
     }
+
     .description {
         width: 310px;
     }
+
     .projectImg {
         height: 180px
     }
@@ -97,9 +101,10 @@
         width: 260px;
     }
 
-    .description{
+    .description {
         width: 253px;
     }
+
     .projectImg {
         height: 159px
     }
